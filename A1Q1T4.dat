@@ -1,0 +1,32 @@
+Assignment 1
+Due: 10:59 AM on Monday, September 19, 2016
+
+
+Question #1
+Write a script called encrypt.py that will perform the encryption step of a One-Time Pad cipher. Your script should take in as input four arguments. The first will be the name of the file to be encrypted, the second is the pad that will be used for encryption, the third is the starting position of the pad being used and the fourth is a name of the file the encrypted text will be written to. Your script should not encrypt numbers and should remove all non-letter and non-number characters, this includes newline characters (there should be no newline characters in the encrypted file). 
+
+E.g. A 3 will stay a 3, and a ‘.‘ would not be added to the encrypted file. In both cases the position of the pad should not be advanced. All encrypted letters should be in upper case. 
+
+Question #2
+The same as question one but doing the decryption step of a One-Time Pad cipher instead. Opposite of what you did in question #1, going from a coded message to a decoded message using the same arguments. 
+Hints
+ord is a function that gets the ascii value of a character 
+chr is a function that returns the character represented by a value
+isalpha test to see if a string only contains letters
+isdigit test to see if a string only contains digits 
+
+
+
+
+Submission
+You must submit your Python script files electronically using D2L dropbox. Note that each script file must have the following comment block at the top, 
+
+#########################################################
+##  CS 2500 (Fall 2014), Assignment #X, Question #X    ##
+##   Script File Name: X				               ##
+##       Student Name: X		      		           ##
+##         Login Name: X                               ##
+##              MUN #: X                               ##
+#########################################################
+
+where the X's are replaced with the appropriate information, followed by a docstring briefly describing the program in that script. You do not have to develop your code on our CS departmental systems. However, as your code will be compiled and tested on our CS departmental systems as part of the assignment marking process, you should ensure that your code compiles and runs correctly on at least one of these systems. Your script will be tested by running it on the test case, which will be given proir to the submission deadline.  An evaluation scheme will also be given proir to the submission deadline.
